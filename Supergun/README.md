@@ -74,12 +74,12 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Kicad
 <b>For the sound:</b>
 - If you have the stereo modification on your MVS just put the two wires (left-right) on the "DIRECT" connector. you can power the board by the barrel jack (only 5 volt needed).
 <p align="center">
-  <img  src="Pictures/Audio_Direct_From_MVS.jpg" width="500" />
+  <img  src="Pictures/Audio_Direct_From_MVS.png" width="500" />
 </p>
 
 - if you don't have the stereo modification you need to use the two jumper on "LEFT" and "RIGHT" and you need to use the Molex connector 5V/12V.
 <p align="center">
-  <img  src="Pictures/Audio_From_Jamma.jpg" width="500" />
+  <img  src="Pictures/Audio_From_Jamma.png" width="500" />
 </p>
 
 <b>Comments:</b>
