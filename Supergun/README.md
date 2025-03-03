@@ -1,5 +1,6 @@
 THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL I BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THIS PROJECT.
 
+<b>Universal MVS Supergun</b>
 <p align="center">
   <img  src="Pictures/Assemble.jpg" width="500" />
 </p>
@@ -18,14 +19,14 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <img  src="Pictures/MV1-C.jpg" width="500" />
 </p>
 
-<b>Pictures of the Parts:</b><br>
+<b>Pictures of the all the Parts:</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Parts
 <p align="center">
   <img  src="Pictures/Parts.jpg" width="500" />
 </p>
 
-<b>Parts:</b>
-- 1 * 28 pins Jamma Connector
+<b>Parts description:</b>
+- 1 * 28 pins JAMMA Connector
 - 3 * RM065 500 Ohm Potentiometer
 - 3 * Button 6mm x 6mm x 12.5mm
 - 4 * 16V 220UF 6x7mm Electrolytic Capacitors
@@ -35,6 +36,7 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Parts
 - 1 * Power Jack Socket 2.1mm x 5.5mm Barrel-Type PCB Mount
 - 2 * Header 3 pins 2.54mm
 - 2 * DR25 25 Pins Male right angle (D-SUB 15)
+- 1 * 3F07 Audio Jack Connector PCB 5 Pins
 - 2 * Led 3mm (Orange & Red)
 - 7 * Resistors
     - 1 * 470 Ohm
@@ -44,14 +46,13 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Parts
     - 2 * 10K Ohm (Optional With Direct Stereo Audio/5 volts mod)
 
 <b>Optional parts:</b>
-- 1 * 2 pins Dupont Cable Female Connector Wire 2.54mm Pitch 30cm (For Stereo Audio connection directly to the MVS)
+- 1 * 2 pins Dupont Cable Female Connector Wire 2.54mm Pitch 30cm (For Stereo audio connection directly to the MVS)
 - 1 * Header 3 pins 2.54mm (For Kick Harness)
 - 1 * KF301-2P 5.08mm 2 Pins Connect Terminal Screw (External 5 Volts/12 Volts)
-- 1 * Header 8 Pins Male Socket Double Row Right Angle 2.54mm
-- 1 * 3F07 Audio Jack Connector PCB 5 Pins
-- 5 * M3 ScrewsM3 5mm (For 3D printed case)
+- 1 * Header 8 Pins Male Socket Double Row Right Angle 2.54mm (External A/V signal)
+- 5 * M3 Screws 5mm long (For 3D printed case)
 
-<b>Soldering of the jamma header:</b>
+<b>Soldering of the JAMMA header:</b>
 <p align="center">
   <img  src="Pictures/SolderJamma.jpg" width="300" />
 </p>
@@ -68,27 +69,41 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Kicad
   <img  src="Pictures/Schema.png" width="500" />
 </p>
 <p align="center">
-  <img  src="Pictures/PCB.png" width="500" />
+  <img  src="Pictures/PCB_Top.png" width="500" />
+</p>
+<p align="center">
+  <img  src="Pictures/PCB_Bottom.png" width="500" />
 </p>
 
+<b>Inputs Voltage:</b><br>
+- The recommended power supply sould be at least 3 amp.
+- The supergun can be power by the 5 Volts Barrel power jack (2.1mm x 5.5mm)(Center positive) or by the 5 volts/12 volts Molex connector depending on the sound configuration. Please see below.
+
 <b>For the sound:</b>
-- If you have the stereo modification on your MVS just put the two wires (left-right) on the "DIRECT" connector. you can power the board by the barrel jack (only 5 volt needed).
+- If you have the direct stereo modification on your MVS just put the two sound wires from the MVS (left-right) on the "DIRECT" connector, no jumper on "LEFT" and "RIGHT" connector. You can power the board by the Barrel power jack only 5 volts are needed.
 <p align="center">
   <img  src="Pictures/Audio_Direct_From_MVS.png" width="500" />
 </p>
 
-- if you don't have the stereo modification you need to use the two jumper on "LEFT" and "RIGHT" and you need to use the Molex connector 5V/12V.
+- if you don't have the direct stereo modification (sound comming form the JAMMA connector) you need to use the two jumpers on "LEFT" and "RIGHT" connector and you need to use the Molex connector 5 volts/12 volts.
 <p align="center">
   <img  src="Pictures/Audio_From_Jamma.png" width="500" />
 </p>
 
-<b>Comments:</b>
-- Depending on your setup you might have to cut/solder the test jumper (usually one slot MVS use the Jamma test pin - Multi-slot use the MVS).
+<b>For the video:</b>
 - This Supergun only dislpay in 240p. For HDMI TV you need an upscaler like:
     - OSSC (https://www.retrorgb.com/ossc.html)
     - GBS8200 (https://github.com/ramapcsx2/gbs-control)
+- The video signal is safe thanks to the 470 Ohm on the video Sync signal.
 - For best image/sound quality use a shielded cable.
-- This Supergun is setup for a Genesis/Megadrive 2 cable: 
+- The 3 blue potentiometers allow a fine tunning of the RGB colors.
+- This Supergun is designed to be used with a Genesis/Megadrive 2 cable: 
 <p align="center">
   <img  src="Pictures/AV_cable.png" width="500" />
 </p>
+
+<b>Other:</b>
+- Depending on your setup you might have to cut the test jumper on the bottom PCB. Usually one slot MVS use the JAMMA test pin (default) - Multi-slot use the MVS.
+- CP1 & CP2 are the coin buttons for player 1 & 2
+- On the right to JAMMA connector a 3 pins header (5 volts, ground, and 12 volts) is for external power.
+- Near the sound pins is located an extenal 8 pins A/V header for additional A/V outputs.
