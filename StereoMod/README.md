@@ -16,7 +16,7 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <b>Parts description:</b>
 - 4 * Resistors 1/4 watt 6.8K Ohm
-- 4 * 50V 4.7UF 4x2mm Electrolytic Capacitors
+- 4 * 50V 4.7UF 4x7mm Electrolytic Capacitors
 
 <b>Gerber files:</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/StereoMod/Gerber
