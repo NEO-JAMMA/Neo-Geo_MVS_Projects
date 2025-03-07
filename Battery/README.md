@@ -1,9 +1,9 @@
-This battery holder is for replacing the battery coin of the MVS:
+<b>This battery holder is for replacing the battery coin of the MVS:</b>
 - MV1-C (the battery holder can be mounted vertically only)
+- MV1-B (the battery holder can be mounted vertically or horizontally)
 <p align="center">
   <img  src="Pictures/Solder_Vertical.jpg" width="500" />
 </p>
-- MV1-B (the battery holder can be mounted vertically or horizontally).
 <p align="center">
   <img  src="Pictures/Solder_Horizontal.jpg" width="500" />
 </p>
@@ -15,14 +15,15 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Battery/Parts
 </p>
 
 <b>Parts description:</b>
-- 3 * Header 1 pin 2.54mm 90 degree right angle (for vertical mount)
-or
-- 3 * Header 1 pin 2.54mm (for horizontal mount)
 - 1 * SMD Button Coin Cell CR2032 battery holder
+- 3 * Header 1 pin 2.54mm 90 degree right angle (for vertical mount)
+- or
+- 3 * Header 1 pin 2.54mm (for horizontal mount)
+
 
 <b>Optional parts:</b>
 - 1 * LIR2032 3.6V Li-ion rechargeable battery
-or
+- or
 - 1 * CR2032 3V none rechargeable battery
 
 <b>Soldering of the header for vertical mount:</b>
