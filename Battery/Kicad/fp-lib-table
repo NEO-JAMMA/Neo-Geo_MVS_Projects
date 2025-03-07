@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 000)(type KiCad)(uri "$(KIPRJMOD)/tortule.pretty")(options "")(descr ""))
+  (lib (name holder)(type KiCad)(uri "$(KIPRJMOD)/holder.pretty")(options "")(descr ""))
+  (lib (name pin)(type KiCad)(uri "$(KIPRJMOD)/pin.pretty")(options "")(descr ""))
+)
