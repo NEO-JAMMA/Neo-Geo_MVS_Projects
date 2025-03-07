@@ -10,20 +10,22 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 </p>
 
 <b>Pictures of the all the Parts:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Battery/Parts
 <p align="center">
   <img  src="Pictures/Parts.jpg" width="500" />
 </p>
 
 <b>Parts description:</b>
 - 4 * Resistors 1/4 watt 6.8K Ohm
-- 4 * 16V 4.7UF 6x7mm Electrolytic Capacitors
+- 4 * 50V 4.7UF 4x2mm Electrolytic Capacitors
 
 <b>Gerber files:</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/StereoMod/Gerber
 
 <b>Kicad source:</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/StereoMod/Kicad
+<p align="center">
+  <img  src="Pictures/PCB.png" width="500" />
+</p>
 
 <b>Wiring</b><br>
 Please check the Jamma Nation X tutorials for more information:
