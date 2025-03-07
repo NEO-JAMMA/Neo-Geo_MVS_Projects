@@ -107,3 +107,5 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Kicad
 - CP1 & CP2 are the coin buttons for player 1 & 2
 - On the right to JAMMA connector a 3 pins header (5 volts, ground, and 12 volts) is for external power.
 - Near the sound pins is located an extenal 8 pins A/V header for additional A/V outputs.
+- For stereo mod please check the Jamma Nation X tutorials for more information:
+https://www.jamma-nation-x.com/jammax/tutorials.html

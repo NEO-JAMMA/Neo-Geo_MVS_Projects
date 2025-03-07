@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "StereoMod-rescue")(type "Legacy")(uri "${KIPRJMOD}/StereoMod-rescue.lib")(options "")(descr ""))
+)

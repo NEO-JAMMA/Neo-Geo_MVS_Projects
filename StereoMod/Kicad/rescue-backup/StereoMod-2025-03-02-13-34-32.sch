@@ -1,0 +1,362 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:StereoMod-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1
+U 1 1 5CE7CDF7
+P 4944 3730
+F 0 "R1" V 5024 3730 50  0000 C CNN
+F 1 "6.8k" V 4944 3730 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4874 3730 50  0001 C CNN
+F 3 "" H 4944 3730 50  0001 C CNN
+	1    4944 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP1
+U 1 1 5CE7CEF5
+P 4098 3769
+F 0 "TP1" V 4119 4154 50  0000 C BNN
+F 1 "A" V 4098 4019 50  0000 C CNN
+F 2 "TestPoint_Pad:TestPoint_Pad_2.0x4.0mm" H 4098 3769 50  0001 C CNN
+F 3 "" H 4098 3769 50  0001 C CNN
+	1    4098 3769
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP2
+U 1 1 5CE7CF6C
+P 4102 4054
+F 0 "TP2" V 4130 4435 50  0000 C BNN
+F 1 "B" V 4102 4304 50  0000 C CNN
+F 2 "TestPoint_Pad:TestPoint_Pad_2.0x4.0mm" H 4102 4054 50  0001 C CNN
+F 3 "" H 4102 4054 50  0001 C CNN
+	1    4102 4054
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP3
+U 1 1 5CE7CFD8
+P 4105 4345
+F 0 "TP3" V 4122 4729 50  0000 C BNN
+F 1 "C" V 4096 4595 50  0000 C CNN
+F 2 "TestPoint_Pad:TestPoint_Pad_2.0x4.0mm" H 4105 4345 50  0001 C CNN
+F 3 "" H 4105 4345 50  0001 C CNN
+	1    4105 4345
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP4
+U 1 1 5CE7D03D
+P 5645 3897
+F 0 "TP4" V 5668 4433 50  0000 C BNN
+F 1 "LEFT" V 5644 4217 50  0000 C CNN
+F 2 "TestPoint_Pad:TestPoint_Pad_2.0x4.0mm" H 5645 3897 50  0001 C CNN
+F 3 "" H 5645 3897 50  0001 C CNN
+	1    5645 3897
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP5
+U 1 1 5CE7D0D7
+P 5645 4209
+F 0 "TP5" V 5671 4772 50  0000 C BNN
+F 1 "RIGHT" V 5644 4556 50  0000 C CNN
+F 2 "TestPoint_Pad:TestPoint_Pad_2.0x4.0mm" H 5645 4209 50  0001 C CNN
+F 3 "" H 5645 4209 50  0001 C CNN
+	1    5645 4209
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 5CE7D56A
+P 4463 3730
+F 0 "C1" V 4561 3563 50  0000 L CNN
+F 1 "4.7u" V 4495 3491 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 4463 3730 50  0001 C CNN
+F 3 "" H 4463 3730 50  0001 C CNN
+	1    4463 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 5CE7E15B
+P 4465 3956
+F 0 "C2" V 4561 3794 50  0000 L CNN
+F 1 "4.7u" V 4498 3731 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 4465 3956 50  0001 C CNN
+F 3 "" H 4465 3956 50  0001 C CNN
+	1    4465 3956
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5CE7E585
+P 4946 4177
+F 0 "R3" V 5026 4177 50  0000 C CNN
+F 1 "6.8k" V 4946 4177 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4876 4177 50  0001 C CNN
+F 3 "" H 4946 4177 50  0001 C CNN
+	1    4946 4177
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 5CE7E58B
+P 4465 4177
+F 0 "C3" V 4566 4021 50  0000 L CNN
+F 1 "4.7u" V 4497 3952 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 4465 4177 50  0001 C CNN
+F 3 "" H 4465 4177 50  0001 C CNN
+	1    4465 4177
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5CE7E592
+P 4948 4403
+F 0 "R4" V 5028 4403 50  0000 C CNN
+F 1 "6.8k" V 4948 4403 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4878 4403 50  0001 C CNN
+F 3 "" H 4948 4403 50  0001 C CNN
+	1    4948 4403
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C4
+U 1 1 5CE7E598
+P 4467 4403
+F 0 "C4" V 4569 4243 50  0000 L CNN
+F 1 "4.7u" V 4500 4180 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 4467 4403 50  0001 C CNN
+F 3 "" H 4467 4403 50  0001 C CNN
+	1    4467 4403
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5CE7FD1F
+P 5796 3750
+F 0 "J4" H 6151 3748 50  0000 C CNN
+F 1 "LEFT" H 5977 3745 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 5796 3750 50  0001 C CNN
+F 3 "" H 5796 3750 50  0001 C CNN
+	1    5796 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5CE7FF3D
+P 5800 4090
+F 0 "J5" H 6180 4091 50  0000 C CNN
+F 1 "RIGHT" H 6000 4088 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 5800 4090 50  0001 C CNN
+F 3 "" H 5800 4090 50  0001 C CNN
+	1    5800 4090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J1
+U 1 1 5CE80022
+P 3944 3886
+F 0 "J1" H 4153 3882 50  0000 C CNN
+F 1 "A" H 4039 3884 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3944 3886 50  0001 C CNN
+F 3 "" H 3944 3886 50  0001 C CNN
+	1    3944 3886
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J2
+U 1 1 5CE801E0
+P 3944 4190
+F 0 "J2" H 4143 4190 50  0000 C CNN
+F 1 "B" H 4037 4190 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3944 4190 50  0001 C CNN
+F 3 "" H 3944 4190 50  0001 C CNN
+	1    3944 4190
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5CE802FA
+P 3952 4474
+F 0 "J3" H 4151 4472 50  0000 C CNN
+F 1 "C" H 4049 4476 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 3952 4474 50  0001 C CNN
+F 3 "" H 3952 4474 50  0001 C CNN
+	1    3952 4474
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 5CE7E155
+P 4946 3956
+F 0 "R2" V 5026 3956 50  0000 C CNN
+F 1 "6.8k" V 4946 3956 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4876 3956 50  0001 C CNN
+F 3 "" H 4946 3956 50  0001 C CNN
+	1    4946 3956
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5096 4209 5645 4209
+Wire Wire Line
+	5096 4177 5096 4209
+Wire Wire Line
+	5094 3897 5645 3897
+Wire Wire Line
+	5094 3730 5094 3897
+Wire Wire Line
+	4105 4345 4317 4345
+Wire Wire Line
+	4317 4266 4317 4403
+Wire Wire Line
+	4102 4054 4315 4054
+Wire Wire Line
+	4315 4054 4315 4177
+Wire Wire Line
+	4098 3769 4313 3769
+Wire Wire Line
+	4313 3769 4313 3730
+Wire Wire Line
+	4617 4403 4798 4403
+Wire Wire Line
+	4615 4177 4796 4177
+Wire Wire Line
+	4615 3956 4796 3956
+Wire Wire Line
+	4613 3730 4794 3730
+Wire Wire Line
+	5098 4403 5098 4208
+Wire Wire Line
+	5098 4208 5096 4208
+Connection ~ 5096 4208
+Wire Wire Line
+	4152 4474 4152 4345
+Connection ~ 4152 4345
+Wire Wire Line
+	4144 4190 4144 4054
+Connection ~ 4144 4054
+Wire Wire Line
+	4144 3886 4144 3769
+Connection ~ 4144 3769
+Wire Wire Line
+	5596 3750 5596 3897
+Wire Wire Line
+	5596 3897 5597 3897
+Connection ~ 5597 3897
+Wire Wire Line
+	5600 4090 5600 4209
+Connection ~ 5600 4209
+Wire Wire Line
+	5096 3956 5096 3897
+Connection ~ 5096 3897
+Wire Wire Line
+	4315 3956 3553 3956
+Wire Wire Line
+	3553 3956 3553 4266
+Wire Wire Line
+	3553 4266 4317 4266
+Connection ~ 4317 4345
+$Comp
+L Conn_01x01 H1
+U 1 1 5CF8BADD
+P 4182 4970
+F 0 "H1" H 4182 5070 50  0000 C CNN
+F 1 "Conn_01x01" H 4182 4870 50  0000 C CNN
+F 2 "Connectors:1pin" H 4182 4970 50  0001 C CNN
+F 3 "" H 4182 4970 50  0001 C CNN
+	1    4182 4970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H2
+U 1 1 5CF8BB71
+P 4181 5260
+F 0 "H2" H 4181 5360 50  0000 C CNN
+F 1 "Conn_01x01" H 4181 5160 50  0000 C CNN
+F 2 "Connectors:1pin" H 4181 5260 50  0001 C CNN
+F 3 "" H 4181 5260 50  0001 C CNN
+	1    4181 5260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H3
+U 1 1 5CF8BE73
+P 4182 5594
+F 0 "H3" H 4182 5694 50  0000 C CNN
+F 1 "Conn_01x01" H 4182 5494 50  0000 C CNN
+F 2 "Connectors:1pin" H 4182 5594 50  0001 C CNN
+F 3 "" H 4182 5594 50  0001 C CNN
+	1    4182 5594
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H4
+U 1 1 5CF8BE79
+P 4181 5884
+F 0 "H4" H 4181 5984 50  0000 C CNN
+F 1 "Conn_01x01" H 4181 5784 50  0000 C CNN
+F 2 "Connectors:1pin" H 4181 5884 50  0001 C CNN
+F 3 "" H 4181 5884 50  0001 C CNN
+	1    4181 5884
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 HONU1
+U 1 1 5CF8C995
+P 4952 4984
+F 0 "HONU1" H 4952 5084 50  0000 C CNN
+F 1 "Conn_01x01" H 4952 4884 50  0000 C CNN
+F 2 "tortule:logo" H 4952 4984 50  0001 C CNN
+F 3 "" H 4952 4984 50  0001 C CNN
+	1    4952 4984
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

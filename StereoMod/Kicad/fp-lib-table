@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TestPoint_Pad)(type KiCad)(uri "$(KIPRJMOD)/TestPoint_Pad")(options "")(descr ""))
+  (lib (name tortule)(type KiCad)(uri "$(KIPRJMOD)/tortule.pretty")(options "")(descr ""))
+)
