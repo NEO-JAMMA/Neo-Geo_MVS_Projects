@@ -8,3 +8,9 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun
 <p align="center">
   <img  src="Supergun/Pictures/MV1-C.jpg" width="500" />
 </p>
+
+<b>Battery holder for MV1-C and MV1-B:</b><br>
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/blob/main/Battery/README.md
+<p align="center">
+  <img  src="Battery/Pictures/Solder_Vertical.jpg" width="500" />
+</p>
