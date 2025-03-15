@@ -1,0 +1,280 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:wemos_mini
+LIBS:PLCC-44
+LIBS:EspToGbs-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WeMos_mini U1
+U 1 1 5EF79124
+P 6530 2870
+F 0 "U1" H 6530 3370 60  0000 C CNN
+F 1 "WeMos_mini" H 6530 2370 60  0000 C CNN
+F 2 "wemos_d1_mini:D1_mini_board" H 7080 2170 60  0001 C CNN
+F 3 "" H 7080 2170 60  0000 C CNN
+	1    6530 2870
+	0    1    1    0   
+$EndComp
+$Comp
+L PLCC-44 J1
+U 1 1 5EF7917F
+P 4030 2770
+F 0 "J1" H 3629 3872 50  0000 L BNN
+F 1 "PLCC-44" H 3630 1469 50  0000 L BNN
+F 2 "PLCC-44:PLCC-44_THT-Socket" H 4030 2770 50  0001 L BNN
+F 3 "FISCHER ELEKTRONIK" H 4030 2770 50  0001 L BNN
+F 4 "MANUFACTRER RECOMMENDATIONS" H 4030 2770 50  0001 L BNN "Field4"
+F 5 "NA" H 4030 2770 50  0001 L BNN "Field5"
+	1    4030 2770
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4530 1770
+NoConn ~ 4530 1870
+NoConn ~ 4530 1970
+NoConn ~ 4530 2070
+NoConn ~ 4530 2170
+NoConn ~ 4530 2370
+NoConn ~ 4530 2570
+NoConn ~ 4530 2670
+NoConn ~ 4530 2870
+NoConn ~ 4530 3270
+NoConn ~ 4530 3370
+NoConn ~ 4530 3670
+NoConn ~ 3530 3570
+NoConn ~ 3530 3370
+NoConn ~ 3530 3270
+NoConn ~ 3530 3170
+NoConn ~ 3530 3070
+NoConn ~ 3530 2970
+NoConn ~ 3530 2870
+NoConn ~ 3530 2770
+NoConn ~ 3530 2670
+NoConn ~ 3530 2570
+NoConn ~ 3530 2470
+NoConn ~ 3530 2370
+NoConn ~ 3530 2270
+NoConn ~ 3530 2170
+NoConn ~ 3530 2070
+NoConn ~ 3530 1970
+NoConn ~ 3530 1870
+NoConn ~ 3530 1770
+NoConn ~ 4530 2770
+$Comp
+L +3.3V #PWR01
+U 1 1 5F1892F4
+P 6880 3370
+F 0 "#PWR01" H 6880 3220 50  0001 C CNN
+F 1 "+3.3V" H 6880 3510 50  0000 C CNN
+F 2 "" H 6880 3370 50  0001 C CNN
+F 3 "" H 6880 3370 50  0001 C CNN
+	1    6880 3370
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 5F189326
+P 4530 2270
+F 0 "#PWR02" H 4530 2120 50  0001 C CNN
+F 1 "+3.3V" H 4530 2410 50  0000 C CNN
+F 2 "" H 4530 2270 50  0001 C CNN
+F 3 "" H 4530 2270 50  0001 C CNN
+	1    4530 2270
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5F189349
+P 6780 2370
+F 0 "#PWR03" H 6780 2120 50  0001 C CNN
+F 1 "GND" H 6780 2220 50  0000 C CNN
+F 2 "" H 6780 2370 50  0001 C CNN
+F 3 "" H 6780 2370 50  0001 C CNN
+	1    6780 2370
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5F189375
+P 4530 2470
+F 0 "#PWR04" H 4530 2220 50  0001 C CNN
+F 1 "GND" H 4530 2320 50  0000 C CNN
+F 2 "" H 4530 2470 50  0001 C CNN
+F 3 "" H 4530 2470 50  0001 C CNN
+	1    4530 2470
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5F18939A
+P 3530 3670
+F 0 "#PWR05" H 3530 3420 50  0001 C CNN
+F 1 "GND" H 3530 3520 50  0000 C CNN
+F 2 "" H 3530 3670 50  0001 C CNN
+F 3 "" H 3530 3670 50  0001 C CNN
+	1    3530 3670
+	0    1    1    0   
+$EndComp
+Text GLabel 4530 3070 2    60   Input ~ 0
+SDA
+Text GLabel 6480 2370 1    60   Input ~ 0
+SDA
+Text GLabel 4530 2970 2    60   Input ~ 0
+SCL
+Text GLabel 6380 2370 1    60   Input ~ 0
+SCL
+Text GLabel 6580 3370 3    60   Input ~ 0
+DEBUG
+Text GLabel 4530 3470 2    60   Input ~ 0
+DEBUG
+NoConn ~ 3530 3470
+NoConn ~ 4530 3170
+NoConn ~ 4530 3570
+Text GLabel 5650 4370 0    60   Input ~ 0
+SDA
+Text GLabel 5650 4670 0    60   Input ~ 0
+SCL
+NoConn ~ 6280 2370
+NoConn ~ 6180 2370
+NoConn ~ 6580 2370
+NoConn ~ 6680 2370
+NoConn ~ 6880 2370
+NoConn ~ 6280 3370
+NoConn ~ 6180 3370
+Connection ~ 6780 2370
+$Comp
+L Conn_01x04 J2
+U 1 1 5F18A027
+P 5850 4470
+F 0 "J2" H 5850 4670 50  0000 C CNN
+F 1 "Conn_01x04" H 5850 4170 50  0000 C CNN
+F 2 "I2C:I2C" H 5850 4470 50  0001 C CNN
+F 3 "" H 5850 4470 50  0001 C CNN
+	1    5850 4470
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5F18A12D
+P 6500 4540
+F 0 "#PWR06" H 6500 4290 50  0001 C CNN
+F 1 "GND" H 6500 4310 50  0000 C CNN
+F 2 "" H 6500 4540 50  0001 C CNN
+F 3 "" H 6500 4540 50  0001 C CNN
+	1    6500 4540
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR07
+U 1 1 5F18A147
+P 5650 4470
+F 0 "#PWR07" H 5650 4320 50  0001 C CNN
+F 1 "+3.3V" H 5650 4740 50  0000 C CNN
+F 2 "" H 5650 4470 50  0001 C CNN
+F 3 "" H 5650 4470 50  0001 C CNN
+	1    5650 4470
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5F198CBF
+P 5900 5210
+F 0 "J3" H 5900 5310 50  0000 C CNN
+F 1 "Conn_01x01" H 5900 5110 50  0000 C CNN
+F 2 "tortule:logo" H 5900 5210 50  0001 C CNN
+F 3 "" H 5900 5210 50  0001 C CNN
+	1    5900 5210
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6380 3370
+NoConn ~ 6680 3370
+NoConn ~ 6780 3370
+NoConn ~ 4530 3770
+NoConn ~ 4530 3870
+NoConn ~ 3530 3870
+NoConn ~ 3530 3770
+$Comp
+L Conn_01x03 J4
+U 1 1 5F24888F
+P 6700 4540
+F 0 "J4" H 6700 4740 50  0000 C CNN
+F 1 "Conn_01x03" H 6700 4340 50  0000 C CNN
+F 2 "IR:IR" H 6700 4540 50  0001 C CNN
+F 3 "" H 6700 4540 50  0001 C CNN
+	1    6700 4540
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5F248949
+P 5650 4570
+F 0 "#PWR08" H 5650 4320 50  0001 C CNN
+F 1 "GND" H 5620 4420 50  0000 C CNN
+F 2 "" H 5650 4570 50  0001 C CNN
+F 3 "" H 5650 4570 50  0001 C CNN
+	1    5650 4570
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 4540
+$Comp
+L +3.3V #PWR09
+U 1 1 5F248965
+P 6500 4640
+F 0 "#PWR09" H 6500 4490 50  0001 C CNN
+F 1 "+3.3V" H 6500 4780 50  0000 C CNN
+F 2 "" H 6500 4640 50  0001 C CNN
+F 3 "" H 6500 4640 50  0001 C CNN
+	1    6500 4640
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6500 4440 0    60   Input ~ 0
+IR
+Text GLabel 6480 3370 3    60   Input ~ 0
+IR
+NoConn ~ 5700 5210
+Connection ~ 5650 4570
+Connection ~ 4530 2470
+$EndSCHEMATC

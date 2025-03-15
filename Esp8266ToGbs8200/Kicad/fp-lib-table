@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name wemos_d1_mini)(type KiCad)(uri "$(KIPRJMOD)/d1_mini_kicad-master/library/wemos_d1_mini.pretty")(options "")(descr ""))
+  (lib (name PLCC-44)(type KiCad)(uri "$(KIPRJMOD)/PLCC-44")(options "")(descr ""))
+  (lib (name I2C)(type KiCad)(uri "$(KIPRJMOD)/I2C")(options "")(descr ""))
+  (lib (name tortule)(type KiCad)(uri "$(KIPRJMOD)/tortule.pretty")(options "")(descr ""))
+  (lib (name IR)(type KiCad)(uri "$(KIPRJMOD)/IR")(options "")(descr ""))
+)

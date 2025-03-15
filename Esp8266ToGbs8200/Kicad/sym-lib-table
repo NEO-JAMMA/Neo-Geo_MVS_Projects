@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "EspToGbs-rescue")(type "Legacy")(uri "${KIPRJMOD}/EspToGbs-rescue.lib")(options "")(descr ""))
+  (lib (name "wemos_mini")(type "Legacy")(uri "${KIPRJMOD}/d1_mini_kicad-master/library/wemos_mini.lib")(options "")(descr ""))
+  (lib (name "PLCC-44")(type "Legacy")(uri "${KIPRJMOD}/PLCC-44/PLCC-44.lib")(options "")(descr ""))
+)
