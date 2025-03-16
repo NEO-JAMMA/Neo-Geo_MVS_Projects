@@ -29,7 +29,7 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Battery/Parts
 - or
 - 1 * CR2032 3V none rechargeable battery
 
-<b>Soldering of the header for vertical mount:</b>
+<b>Soldering of the header pins for vertical mount:</b>
 <p align="center">
   <img  src="Pictures/Solder_headers.jpg" width="300" />
 </p>
