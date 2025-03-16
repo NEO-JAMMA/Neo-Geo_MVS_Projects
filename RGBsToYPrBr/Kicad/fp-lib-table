@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name tortule)(type KiCad)(uri "$(KIPRJMOD)/tortule.pretty")(options "")(descr ""))
+  (lib (name 3.5mm_stereo_jack)(type KiCad)(uri "$(KIPRJMOD)/3.5mm_stereo_jack.pretty")(options "")(descr ""))
+  (lib (name JTAG)(type KiCad)(uri "$(KIPRJMOD)/JTAG.pretty")(options "")(descr ""))
+  (lib (name RCJ-013)(type KiCad)(uri "$(KIPRJMOD)/RCJ-013.pretty")(options "")(descr ""))
+  (lib (name Potentiometer)(type KiCad)(uri "$(KIPRJMOD)/Potentiometer.pretty")(options "")(descr ""))
+  (lib (name BA7230LS)(type KiCad)(uri "$(KIPRJMOD)/BA7230LS")(options "")(descr ""))
+  (lib (name power)(type KiCad)(uri "$(KIPRJMOD)/power.pretty")(options "")(descr ""))
+)

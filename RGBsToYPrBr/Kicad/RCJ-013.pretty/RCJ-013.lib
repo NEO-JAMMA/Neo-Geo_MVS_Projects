@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RCJ-013
+#
+DEF RCJ-013 J 0 40 Y Y 1 L N
+F0 "J" -100 150 50 H V L BNN
+F1 "RCJ-013" -100 -250 50 H V L BNN
+F2 "CUI_RCJ-013" 50 150 50 H I L BNN
+F3 "1 Port,  Right Angle, Through Hole, Shielded, RCA Jack Connector" 0 0 50 H I L BNN
+F4 "RCJ-013" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-01-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" 0 0 50 H I L BNN
+F9 "CUI Devices" 0 0 50 H I L BNN
+DRAW
+S -130 -100 -70 50 0 0 0 F
+P 2 0 0 6 -100 100 -100 50 N
+P 2 0 0 6 0 -40 -30 -100 N
+P 2 0 0 6 30 -100 0 -40 N
+P 2 0 0 6 100 -100 30 -100 N
+P 2 0 0 6 200 -100 100 -100 N
+P 2 0 0 6 200 100 -100 100 N
+X 2 2 300 -100 100 L 40 40 0 0 P
+X 1 1C 300 100 100 L 40 40 0 0 P
+X 1 1A 300 100 100 D 40 40 1 0 P
+X 1 1B 300 100 100 R 40 40 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

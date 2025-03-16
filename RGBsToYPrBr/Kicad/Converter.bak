@@ -1,0 +1,920 @@
+EESchema Schematic File Version 2
+LIBS:Tayda_3.5mm_stereo_TRS_jack_A-853
+LIBS:RCJ-013
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Converter-cache
+LIBS:Supergun-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_02x12_Odd_Even IC1
+U 1 1 5D4AF4F4
+P 6097 3249
+F 0 "IC1" H 6147 3849 50  0000 C CNN
+F 1 "BA7230LS" H 6147 2549 50  0000 C CNN
+F 2 "BA7230LS:BA7230LS" H 6097 3249 50  0001 C CNN
+F 3 "" H 6097 3249 50  0001 C CNN
+	1    6097 3249
+	1    0    0    -1  
+$EndComp
+Text GLabel 9224 2068 2    60   Input ~ 0
+Y
+$Comp
+L +5V #PWR01
+U 1 1 5D4AF8F3
+P 6597 3849
+F 0 "#PWR01" H 6597 3699 50  0001 C CNN
+F 1 "+5V" H 6597 3989 50  0000 C CNN
+F 2 "" H 6597 3849 50  0001 C CNN
+F 3 "" H 6597 3849 50  0001 C CNN
+	1    6597 3849
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5D4AF925
+P 5647 3649
+F 0 "#PWR02" H 5647 3399 50  0001 C CNN
+F 1 "GND" H 5647 3499 50  0000 C CNN
+F 2 "" H 5647 3649 50  0001 C CNN
+F 3 "" H 5647 3649 50  0001 C CNN
+	1    5647 3649
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C1
+U 1 1 5D4C424F
+P 5047 3049
+F 0 "C1" V 4947 2999 50  0000 L CNN
+F 1 "1uF" V 5147 2999 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5047 3049 50  0001 C CNN
+F 3 "" H 5047 3049 50  0001 C CNN
+	1    5047 3049
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 5D4C446B
+P 5047 3449
+F 0 "C2" V 4947 3399 50  0000 L CNN
+F 1 "1uF" V 5147 3399 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5047 3449 50  0001 C CNN
+F 3 "" H 5047 3449 50  0001 C CNN
+	1    5047 3449
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C3
+U 1 1 5D4C449F
+P 5047 3849
+F 0 "C3" V 4947 3799 50  0000 L CNN
+F 1 "1uF" V 5147 3799 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 5047 3849 50  0001 C CNN
+F 3 "" H 5047 3849 50  0001 C CNN
+	1    5047 3849
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5D4C4726
+P 4647 3149
+F 0 "R1" V 4727 3149 50  0000 C CNN
+F 1 "75" V 4647 3149 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4577 3149 50  0001 C CNN
+F 3 "" H 4647 3149 50  0001 C CNN
+	1    4647 3149
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5D4C47D4
+P 4647 3549
+F 0 "R2" V 4727 3549 50  0000 C CNN
+F 1 "75" V 4647 3549 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4577 3549 50  0001 C CNN
+F 3 "" H 4647 3549 50  0001 C CNN
+	1    4647 3549
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5D4C4815
+P 4647 3949
+F 0 "R3" V 4727 3949 50  0000 C CNN
+F 1 "75" V 4647 3949 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4577 3949 50  0001 C CNN
+F 3 "" H 4647 3949 50  0001 C CNN
+	1    4647 3949
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5D4C4873
+P 4797 3949
+F 0 "#PWR03" H 4797 3699 50  0001 C CNN
+F 1 "GND" H 4797 3799 50  0000 C CNN
+F 2 "" H 4797 3949 50  0001 C CNN
+F 3 "" H 4797 3949 50  0001 C CNN
+	1    4797 3949
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5D4C4AFF
+P 4797 3549
+F 0 "#PWR04" H 4797 3299 50  0001 C CNN
+F 1 "GND" H 4797 3399 50  0000 C CNN
+F 2 "" H 4797 3549 50  0001 C CNN
+F 3 "" H 4797 3549 50  0001 C CNN
+	1    4797 3549
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5D4C4B2E
+P 4797 3149
+F 0 "#PWR05" H 4797 2899 50  0001 C CNN
+F 1 "GND" H 4797 2999 50  0000 C CNN
+F 2 "" H 4797 3149 50  0001 C CNN
+F 3 "" H 4797 3149 50  0001 C CNN
+	1    4797 3149
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 5D4C4DB9
+P 6147 4449
+F 0 "C7" V 6251 4406 50  0000 L CNN
+F 1 "0.047uF" V 6036 4331 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6147 4449 50  0001 C CNN
+F 3 "" H 6147 4449 50  0001 C CNN
+	1    6147 4449
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C6
+U 1 1 5D4C4E48
+P 6147 4149
+F 0 "C6" V 6047 4099 50  0000 L CNN
+F 1 "10uF" V 6247 4099 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6147 4149 50  0001 C CNN
+F 3 "" H 6147 4149 50  0001 C CNN
+	1    6147 4149
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C8
+U 1 1 5D4C5CC6
+P 8274 3168
+F 0 "C8" V 8174 3118 50  0000 L CNN
+F 1 "220uF" V 8374 3118 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 8274 3168 50  0001 C CNN
+F 3 "" H 8274 3168 50  0001 C CNN
+	1    8274 3168
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R9
+U 1 1 5D4C5E49
+P 8074 2218
+F 0 "R9" V 8154 2218 50  0000 C CNN
+F 1 "75" V 8074 2218 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8004 2218 50  0001 C CNN
+F 3 "" H 8074 2218 50  0001 C CNN
+	1    8074 2218
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5D4C5ECD
+P 8074 2368
+F 0 "#PWR06" H 8074 2118 50  0001 C CNN
+F 1 "GND" H 8074 2218 50  0000 C CNN
+F 2 "" H 8074 2368 50  0001 C CNN
+F 3 "" H 8074 2368 50  0001 C CNN
+	1    8074 2368
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5D4C6290
+P 7924 1668
+F 0 "#PWR07" H 7924 1518 50  0001 C CNN
+F 1 "+5V" H 7924 1808 50  0000 C CNN
+F 2 "" H 7924 1668 50  0001 C CNN
+F 3 "" H 7924 1668 50  0001 C CNN
+	1    7924 1668
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C10
+U 1 1 5D4C6558
+P 8274 2068
+F 0 "C10" V 8174 2018 50  0000 L CNN
+F 1 "220uF" V 8374 2018 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 8274 2068 50  0001 C CNN
+F 3 "" H 8274 2068 50  0001 C CNN
+	1    8274 2068
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5D4C6564
+P 8074 3318
+F 0 "R8" V 8154 3318 50  0000 C CNN
+F 1 "75" V 8074 3318 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8004 3318 50  0001 C CNN
+F 3 "" H 8074 3318 50  0001 C CNN
+	1    8074 3318
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5D4C656A
+P 8074 3468
+F 0 "#PWR08" H 8074 3218 50  0001 C CNN
+F 1 "GND" H 8074 3318 50  0000 C CNN
+F 2 "" H 8074 3468 50  0001 C CNN
+F 3 "" H 8074 3468 50  0001 C CNN
+	1    8074 3468
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C9
+U 1 1 5D4C6952
+P 8274 4268
+F 0 "C9" V 8174 4218 50  0000 L CNN
+F 1 "220uF" V 8374 4218 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 8274 4268 50  0001 C CNN
+F 3 "" H 8274 4268 50  0001 C CNN
+	1    8274 4268
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R7
+U 1 1 5D4C695E
+P 8074 4418
+F 0 "R7" V 8154 4418 50  0000 C CNN
+F 1 "75" V 8074 4418 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8004 4418 50  0001 C CNN
+F 3 "" H 8074 4418 50  0001 C CNN
+	1    8074 4418
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5D4C6964
+P 8074 4568
+F 0 "#PWR09" H 8074 4318 50  0001 C CNN
+F 1 "GND" H 8074 4418 50  0000 C CNN
+F 2 "" H 8074 4568 50  0001 C CNN
+F 3 "" H 8074 4568 50  0001 C CNN
+	1    8074 4568
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5D4C696B
+P 7924 3868
+F 0 "#PWR010" H 7924 3718 50  0001 C CNN
+F 1 "+5V" H 7924 4008 50  0000 C CNN
+F 2 "" H 7924 3868 50  0001 C CNN
+F 3 "" H 7924 3868 50  0001 C CNN
+	1    7924 3868
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5D4C6DD3
+P 8874 4268
+F 0 "R11" V 8954 4268 50  0000 C CNN
+F 1 "20" V 8874 4268 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8804 4268 50  0001 C CNN
+F 3 "" H 8874 4268 50  0001 C CNN
+	1    8874 4268
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5D4C6E73
+P 8874 2068
+F 0 "R6" V 8954 2068 50  0000 C CNN
+F 1 "62" V 8874 2068 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 8804 2068 50  0001 C CNN
+F 3 "" H 8874 2068 50  0001 C CNN
+	1    8874 2068
+	0    1    1    0   
+$EndComp
+Text GLabel 9224 3168 2    60   Input ~ 0
+B-Y
+Text GLabel 9224 4268 2    60   Input ~ 0
+R-Y
+Text GLabel 5147 3049 2    60   Input ~ 0
+13
+Text GLabel 5147 3849 2    60   Input ~ 0
+15
+Text GLabel 5147 3449 2    60   Input ~ 0
+14
+Text GLabel 7624 1868 0    60   Input ~ 0
+16
+Text GLabel 7624 2968 0    60   Input ~ 0
+17
+Text GLabel 7624 4068 0    60   Input ~ 0
+18
+Text GLabel 6397 3549 2    60   Input ~ 0
+18
+Text GLabel 5897 3549 0    60   Input ~ 0
+17
+Text GLabel 6397 3449 2    60   Input ~ 0
+16
+Text GLabel 5897 3349 0    60   Input ~ 0
+13
+Text GLabel 6397 3349 2    60   Input ~ 0
+14
+Text GLabel 5897 3449 0    60   Input ~ 0
+15
+$Comp
+L Conn_01x04 VIDEO_OUT3
+U 1 1 5D4CECB6
+P 4642 5620
+F 0 "VIDEO_OUT3" H 4642 5820 50  0000 C CNN
+F 1 "YPbPr_OUT" H 4642 5320 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4642 5620 50  0001 C CNN
+F 3 "" H 4642 5620 50  0001 C CNN
+	1    4642 5620
+	1    0    0    -1  
+$EndComp
+Text GLabel 4442 5620 0    60   Input ~ 0
+Y
+Text GLabel 4442 5720 0    60   Input ~ 0
+B-Y
+Text GLabel 4442 5820 0    60   Input ~ 0
+R-Y
+$Comp
+L GND #PWR011
+U 1 1 5D4CF095
+P 4192 5420
+F 0 "#PWR011" H 4192 5170 50  0001 C CNN
+F 1 "GND" H 4192 5270 50  0000 C CNN
+F 2 "" H 4192 5420 50  0001 C CNN
+F 3 "" H 4192 5420 50  0001 C CNN
+	1    4192 5420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H1
+U 1 1 5D4CF39C
+P 9845 4712
+F 0 "H1" H 9845 4812 50  0000 C CNN
+F 1 "Conn_01x01" H 9845 4612 50  0000 C CNN
+F 2 "Connectors:1pin" H 9845 4712 50  0001 C CNN
+F 3 "" H 9845 4712 50  0001 C CNN
+	1    9845 4712
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H2
+U 1 1 5D4CF640
+P 10505 4735
+F 0 "H2" H 10505 4835 50  0000 C CNN
+F 1 "Conn_01x01" H 10505 4635 50  0000 C CNN
+F 2 "Connectors:1pin" H 10505 4735 50  0001 C CNN
+F 3 "" H 10505 4735 50  0001 C CNN
+	1    10505 4735
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 LOGO1
+U 1 1 5D4CF770
+P 9845 5162
+F 0 "LOGO1" H 9845 5262 50  0000 C CNN
+F 1 "Conn_01x01" H 9845 5062 50  0000 C CNN
+F 2 "tortule:logo" H 9845 5162 50  0001 C CNN
+F 3 "" H 9845 5162 50  0001 C CNN
+	1    9845 5162
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2SC1815 Q1
+U 1 1 5D519A6A
+P 7824 1868
+F 0 "Q1" H 8024 1943 50  0000 L CNN
+F 1 "2SC945" H 8024 1868 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8024 1793 50  0001 L CIN
+F 3 "" H 7824 1868 50  0001 L CNN
+	1    7824 1868
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2SC1815 Q3
+U 1 1 5D519C81
+P 7824 4068
+F 0 "Q3" H 8024 4143 50  0000 L CNN
+F 1 "2SC945" H 8024 4068 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8024 3993 50  0001 L CIN
+F 3 "" H 7824 4068 50  0001 L CNN
+	1    7824 4068
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2SC1815 Q2
+U 1 1 5D519DA7
+P 7824 2968
+F 0 "Q2" H 8024 3043 50  0000 L CNN
+F 1 "2SC945" H 8024 2968 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8024 2893 50  0001 L CIN
+F 3 "" H 7824 2968 50  0001 L CNN
+	1    7824 2968
+	1    0    0    -1  
+$EndComp
+Text GLabel 4347 3849 0    60   Input ~ 0
+V_BLUE_OUT
+Text GLabel 4347 3449 0    60   Input ~ 0
+V_GREEN_OUT
+Text GLabel 4347 3049 0    60   Input ~ 0
+V_RED_OUT
+Text GLabel 4773 1749 2    60   Input ~ 0
+V_SYNC_OUT
+Text GLabel 2647 5783 2    60   Input ~ 0
+AUDIO_LEFT_OUT
+Text GLabel 2647 5683 2    60   Input ~ 0
+AUDIO_RIGHT_OUT
+Text GLabel 2375 3193 2    60   Input ~ 0
+V_GREEN_OUT
+Text GLabel 1875 3093 0    60   Input ~ 0
+V_SYNC_OUT
+Text GLabel 2375 3093 2    60   Input ~ 0
+V_RED_OUT
+Text GLabel 2375 3293 2    60   Input ~ 0
+V_BLUE_OUT
+Text GLabel 1875 3193 0    60   Input ~ 0
+AUDIO_LEFT_OUT
+Text GLabel 1875 3293 0    60   Input ~ 0
+AUDIO_RIGHT_OUT
+$Comp
+L Conn_02x04_Odd_Even J1
+U 1 1 5DED701D
+P 2075 3093
+F 0 "J1" H 2125 3293 50  0000 C CNN
+F 1 "AV_EXTENSION" H 2125 2793 50  0000 C CNN
+F 2 "JTAG:JTAG-8" H 2075 3093 50  0001 C CNN
+F 3 "" H 2075 3093 50  0001 C CNN
+	1    2075 3093
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 5DED701F
+P 1875 2993
+F 0 "#PWR012" H 1875 2843 50  0001 C CNN
+F 1 "+5V" H 1875 3133 50  0000 C CNN
+F 2 "" H 1875 2993 50  0001 C CNN
+F 3 "" H 1875 2993 50  0001 C CNN
+	1    1875 2993
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x01 H3
+U 1 1 5DED8602
+P 9854 5564
+F 0 "H3" H 9854 5664 50  0000 C CNN
+F 1 "Conn_01x01" H 9854 5464 50  0000 C CNN
+F 2 "Connectors:1pin" H 9854 5564 50  0001 C CNN
+F 3 "" H 9854 5564 50  0001 C CNN
+	1    9854 5564
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H4
+U 1 1 5DED8608
+P 10514 5587
+F 0 "H4" H 10514 5687 50  0000 C CNN
+F 1 "Conn_01x01" H 10514 5487 50  0000 C CNN
+F 2 "Connectors:1pin" H 10514 5587 50  0001 C CNN
+F 3 "" H 10514 5587 50  0001 C CNN
+	1    10514 5587
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-3_2Switches A1
+U 1 1 5DEDB03F
+P 2447 5783
+F 0 "A1" H 2447 6073 50  0000 C CNN
+F 1 "Audio-Jack-3_2Switches" H 2297 5583 50  0000 L CNN
+F 2 "3.5mm_stereo_jack:Tayda_3.5mm_stereo_TRS_jack_A-853" H 2697 5883 50  0001 C CNN
+F 3 "" H 2697 5883 50  0001 C CNN
+	1    2447 5783
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCJ-013 J2
+U 1 1 5DEE5174
+P 5392 5533
+F 0 "J2" H 5292 5683 50  0000 L BNN
+F 1 "RCJ-013" H 5292 5283 50  0000 L BNN
+F 2 "RCJ-013:CUI_RCJ-013" H 5392 5533 50  0001 L BNN
+F 3 "1 Port,  Right Angle, Through Hole, Shielded, RCA Jack Connector" H 5392 5533 50  0001 L BNN
+F 4 "RCJ-013" H 5392 5533 50  0001 L BNN "Field4"
+F 5 "None" H 5392 5533 50  0001 L BNN "Field5"
+F 6 "None" H 5392 5533 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 5392 5533 50  0001 L BNN "Field7"
+F 8 "https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-01-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 5392 5533 50  0001 L BNN "Field8"
+F 9 "CUI Devices" H 5392 5533 50  0001 L BNN "Field9"
+	1    5392 5533
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5DEE62AA
+P 5692 5407
+F 0 "#PWR013" H 5692 5157 50  0001 C CNN
+F 1 "GND" H 5692 5257 50  0000 C CNN
+F 2 "" H 5692 5407 50  0001 C CNN
+F 3 "" H 5692 5407 50  0001 C CNN
+	1    5692 5407
+	-1   0    0    1   
+$EndComp
+Text GLabel 5692 5633 2    60   Input ~ 0
+Y
+$Comp
+L RCJ-013 J3
+U 1 1 5DEE6B7E
+P 6160 5549
+F 0 "J3" H 6060 5699 50  0000 L BNN
+F 1 "RCJ-013" H 6060 5299 50  0000 L BNN
+F 2 "RCJ-013:CUI_RCJ-013" H 6160 5549 50  0001 L BNN
+F 3 "1 Port,  Right Angle, Through Hole, Shielded, RCA Jack Connector" H 6160 5549 50  0001 L BNN
+F 4 "RCJ-013" H 6160 5549 50  0001 L BNN "Field4"
+F 5 "None" H 6160 5549 50  0001 L BNN "Field5"
+F 6 "None" H 6160 5549 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 6160 5549 50  0001 L BNN "Field7"
+F 8 "https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-01-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 6160 5549 50  0001 L BNN "Field8"
+F 9 "CUI Devices" H 6160 5549 50  0001 L BNN "Field9"
+	1    6160 5549
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 5DEE6B84
+P 6460 5423
+F 0 "#PWR014" H 6460 5173 50  0001 C CNN
+F 1 "GND" H 6460 5273 50  0000 C CNN
+F 2 "" H 6460 5423 50  0001 C CNN
+F 3 "" H 6460 5423 50  0001 C CNN
+	1    6460 5423
+	-1   0    0    1   
+$EndComp
+Text GLabel 6460 5649 2    60   Input ~ 0
+B-Y
+$Comp
+L RCJ-013 J4
+U 1 1 5DEE7897
+P 6976 5569
+F 0 "J4" H 6876 5719 50  0000 L BNN
+F 1 "RCJ-013" H 6876 5319 50  0000 L BNN
+F 2 "RCJ-013:CUI_RCJ-013" H 6976 5569 50  0001 L BNN
+F 3 "1 Port,  Right Angle, Through Hole, Shielded, RCA Jack Connector" H 6976 5569 50  0001 L BNN
+F 4 "RCJ-013" H 6976 5569 50  0001 L BNN "Field4"
+F 5 "None" H 6976 5569 50  0001 L BNN "Field5"
+F 6 "None" H 6976 5569 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 6976 5569 50  0001 L BNN "Field7"
+F 8 "https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-01-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 6976 5569 50  0001 L BNN "Field8"
+F 9 "CUI Devices" H 6976 5569 50  0001 L BNN "Field9"
+	1    6976 5569
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5DEE789D
+P 7276 5443
+F 0 "#PWR015" H 7276 5193 50  0001 C CNN
+F 1 "GND" H 7276 5293 50  0000 C CNN
+F 2 "" H 7276 5443 50  0001 C CNN
+F 3 "" H 7276 5443 50  0001 C CNN
+	1    7276 5443
+	-1   0    0    1   
+$EndComp
+Text GLabel 7276 5669 2    60   Input ~ 0
+R-Y
+$Comp
+L GND #PWR016
+U 1 1 5DF2AA77
+P 2247 5983
+F 0 "#PWR016" H 2247 5733 50  0001 C CNN
+F 1 "GND" H 2247 5833 50  0000 C CNN
+F 2 "" H 2247 5983 50  0001 C CNN
+F 3 "" H 2247 5983 50  0001 C CNN
+	1    2247 5983
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5DF2B871
+P 2375 2993
+F 0 "#PWR017" H 2375 2743 50  0001 C CNN
+F 1 "GND" H 2375 2843 50  0000 C CNN
+F 2 "" H 2375 2993 50  0001 C CNN
+F 3 "" H 2375 2993 50  0001 C CNN
+	1    2375 2993
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6397 2749
+NoConn ~ 6397 2849
+NoConn ~ 6397 2949
+NoConn ~ 6397 3049
+NoConn ~ 6397 3149
+NoConn ~ 6397 3249
+NoConn ~ 6397 3649
+NoConn ~ 6397 3749
+NoConn ~ 5897 3849
+NoConn ~ 5897 3749
+NoConn ~ 5897 3249
+NoConn ~ 5897 3149
+NoConn ~ 5897 3049
+NoConn ~ 5897 2949
+NoConn ~ 5897 2849
+NoConn ~ 5897 2749
+NoConn ~ 9645 4712
+NoConn ~ 10305 4735
+NoConn ~ 9645 5162
+NoConn ~ 9654 5564
+NoConn ~ 10314 5587
+$Comp
+L +5V #PWR018
+U 1 1 5DF91AFC
+P 7924 2768
+F 0 "#PWR018" H 7924 2618 50  0001 C CNN
+F 1 "+5V" H 7924 2908 50  0000 C CNN
+F 2 "" H 7924 2768 50  0001 C CNN
+F 3 "" H 7924 2768 50  0001 C CNN
+	1    7924 2768
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 5D4C0EDC
+P 4673 1749
+F 0 "C4" V 4777 1706 50  0000 L CNN
+F 1 "0.1uF" V 4562 1631 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4673 1749 50  0001 C CNN
+F 3 "" H 4673 1749 50  0001 C CNN
+	1    4673 1749
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5E53F384
+P 3747 2549
+F 0 "R4" V 3827 2549 50  0000 C CNN
+F 1 "220" V 3747 2549 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3677 2549 50  0001 C CNN
+F 3 "" H 3747 2549 50  0001 C CNN
+	1    3747 2549
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4347 3049 4947 3049
+Wire Wire Line
+	4347 3449 4947 3449
+Wire Wire Line
+	4497 3149 4497 3049
+Connection ~ 4497 3049
+Wire Wire Line
+	4497 3349 4497 3549
+Connection ~ 4497 3449
+Wire Wire Line
+	4497 3949 4497 3849
+Connection ~ 4497 3849
+Wire Wire Line
+	4347 3849 4947 3849
+Wire Wire Line
+	5647 3649 5897 3649
+Wire Wire Line
+	5797 3649 5797 4449
+Connection ~ 5797 3649
+Wire Wire Line
+	6397 3849 6597 3849
+Connection ~ 6447 3849
+Wire Wire Line
+	3747 3349 4497 3349
+Wire Wire Line
+	7924 2068 8174 2068
+Wire Wire Line
+	7924 3168 8174 3168
+Wire Wire Line
+	7924 4268 8174 4268
+Wire Wire Line
+	8374 3168 9224 3168
+Wire Wire Line
+	8724 4268 8374 4268
+Wire Wire Line
+	5797 4449 6047 4449
+Wire Wire Line
+	6447 4449 6247 4449
+Wire Wire Line
+	6447 3849 6447 4449
+Wire Wire Line
+	6047 4149 5797 4149
+Connection ~ 5797 4149
+Wire Wire Line
+	6247 4149 6447 4149
+Connection ~ 6447 4149
+Wire Wire Line
+	8374 2068 8724 2068
+Wire Wire Line
+	9024 2068 9224 2068
+Connection ~ 8074 3168
+Connection ~ 8074 4268
+Connection ~ 8074 2068
+Wire Wire Line
+	9024 4268 9224 4268
+Wire Wire Line
+	4442 5520 4342 5520
+Wire Wire Line
+	4192 5420 4342 5420
+Wire Wire Line
+	4342 5420 4342 5520
+Wire Wire Line
+	2647 5583 2647 5683
+Wire Wire Line
+	2647 5883 2647 5783
+Wire Wire Line
+	5692 5407 5692 5433
+Wire Wire Line
+	6460 5423 6460 5449
+Wire Wire Line
+	7276 5443 7276 5469
+Wire Wire Line
+	3747 2699 3747 3349
+Wire Wire Line
+	3747 2399 3747 1749
+Wire Wire Line
+	3747 1749 4573 1749
+$Comp
+L Barrel_Jack 5V_POWER1
+U 1 1 5E54F2C7
+P 3066 4287
+F 0 "5V_POWER1" H 3066 4497 50  0000 C CNN
+F 1 "Barrel_Jack" H 3066 4112 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 3116 4247 50  0001 C CNN
+F 3 "" H 3116 4247 50  0001 C CNN
+	1    3066 4287
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 MOLEX_POWER1
+U 1 1 5E54F2C8
+P 3066 4837
+F 0 "MOLEX_POWER1" H 3066 5037 50  0000 C CNN
+F 1 "Conn_01x04" H 3066 4537 50  0000 C CNN
+F 2 "mod_conn_hdd_15-24-4441:conn_hdd_15-24-4449" H 3066 4837 50  0001 C CNN
+F 3 "" H 3066 4837 50  0001 C CNN
+	1    3066 4837
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR019
+U 1 1 5E54F2E0
+P 2866 4737
+F 0 "#PWR019" H 2866 4587 50  0001 C CNN
+F 1 "+12VA" H 2866 4877 50  0000 C CNN
+F 2 "" H 2866 4737 50  0001 C CNN
+F 3 "" H 2866 4737 50  0001 C CNN
+	1    2866 4737
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x03 DIRECT_POWER1
+U 1 1 5E54F30C
+P 1359 4820
+F 0 "DIRECT_POWER1" H 1572 5022 50  0000 C CNN
+F 1 "Conn_01x03" H 1522 4623 50  0000 C CNN
+F 2 "power:Power_03x2.54mm_Straight" H 1359 4820 50  0001 C CNN
+F 3 "" H 1359 4820 50  0001 C CNN
+	1    1359 4820
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12VA #PWR020
+U 1 1 5E54F30D
+P 1159 4720
+F 0 "#PWR020" H 1159 4570 50  0001 C CNN
+F 1 "+12VA" H 1159 4860 50  0000 C CNN
+F 2 "" H 1159 4720 50  0001 C CNN
+F 3 "" H 1159 4720 50  0001 C CNN
+	1    1159 4720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2216 4187 2766 4187
+Wire Wire Line
+	2216 5037 2216 4187
+Wire Wire Line
+	2216 5037 2866 5037
+Wire Wire Line
+	2466 4387 2766 4387
+Wire Wire Line
+	2866 4937 2866 4837
+Wire Wire Line
+	2466 4937 2466 4387
+Wire Wire Line
+	2466 4937 2866 4937
+$Comp
+L +5VA #PWR021
+U 1 1 5E54F30F
+P 1159 4920
+F 0 "#PWR021" H 1159 4770 50  0001 C CNN
+F 1 "+5VA" H 1159 5060 50  0000 C CNN
+F 2 "" H 1159 4920 50  0001 C CNN
+F 3 "" H 1159 4920 50  0001 C CNN
+	1    1159 4920
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5VA #PWR022
+U 1 1 5E54F2E2
+P 2216 4187
+F 0 "#PWR022" H 2216 4037 50  0001 C CNN
+F 1 "+5VA" H 2216 4327 50  0000 C CNN
+F 2 "" H 2216 4187 50  0001 C CNN
+F 3 "" H 2216 4187 50  0001 C CNN
+	1    2216 4187
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5E551D0A
+P 1159 4820
+F 0 "#PWR023" H 1159 4570 50  0001 C CNN
+F 1 "GND" H 1159 4670 50  0000 C CNN
+F 2 "" H 1159 4820 50  0001 C CNN
+F 3 "" H 1159 4820 50  0001 C CNN
+	1    1159 4820
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 5E5523B0
+P 2466 4387
+F 0 "#PWR024" H 2466 4137 50  0001 C CNN
+F 1 "GND" H 2466 4237 50  0000 C CNN
+F 2 "" H 2466 4387 50  0001 C CNN
+F 3 "" H 2466 4387 50  0001 C CNN
+	1    2466 4387
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x01 POLARITY?
+U 1 1 5E5574F4
+P 10473 5156
+F 0 "POLARITY?" H 10473 5256 50  0000 C CNN
+F 1 "Conn_01x01" H 10473 5056 50  0000 C CNN
+F 2 "w_logo:Logo_silk_polarity_center_5x1.4mm" H 10473 5156 50  0001 C CNN
+F 3 "" H 10473 5156 50  0001 C CNN
+	1    10473 5156
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

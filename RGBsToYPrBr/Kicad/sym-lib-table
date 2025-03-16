@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Converter-rescue")(type "Legacy")(uri "${KIPRJMOD}/Converter-rescue.lib")(options "")(descr ""))
+  (lib (name "Tayda_3.5mm_stereo_TRS_jack_A-853")(type "Legacy")(uri "${KIPRJMOD}/3.5mm_stereo_jack.pretty/Tayda_3.5mm_stereo_TRS_jack_A-853.lib")(options "")(descr ""))
+  (lib (name "RCJ-013")(type "Legacy")(uri "${KIPRJMOD}/RCJ-013.pretty/RCJ-013.lib")(options "")(descr ""))
+)
