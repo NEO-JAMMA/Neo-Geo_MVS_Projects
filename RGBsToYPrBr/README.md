@@ -4,9 +4,6 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <p align="center">
   <img  src="Pictures/Assembled_Back.jpg" width="500" />
 </p>
-<p align="center">
-  <img  src="Pictures/Assembled_Front.jpg" width="500" />
-</p>
 
 <b>This Converter is design for this Supergun:</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun
