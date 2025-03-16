@@ -27,6 +27,6 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/StereoMod/Kicad
   <img  src="Pictures/PCB.png" width="500" />
 </p>
 
-<b>Wiring</b><br>
+<b>Wiring:</b><br>
 Please check the Jamma Nation X tutorials for more information:
 https://www.jamma-nation-x.com/jammax/tutorials.html

@@ -5,8 +5,8 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <img  src="Pictures/Assembled.jpg" width="500" />
 </p>
 
-<b>This adapter is for mounting an ESP8266 to a GBS8200 with a custom Firmware:</b>
-https://ramapcsx2.github.io/gbs-control/
+<b>This adapter is for mounting an ESP8266 to a GBS8200 with a custom Firmware:</b><br>
+https://ramapcsx2.github.io/gbs-control<br>
 https://github.com/ramapcsx2/gbs-control
 
 <b>Pictures of the all the Parts:</b><br>
@@ -42,5 +42,11 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Esp8266ToGbs8200/Kic
   <img  src="Pictures/PCB_Back.png" width="500" />
 </p>
 
-<b>Programming of the Esp8266:</b>
+<b>Extensions:</b><br>
+The PCB includes:
+- A I2C header for the Si5351 Clock Generator https://ramapcsx2.github.io/gbs-control/Wiki/Si5351-Clock-Generator-install-notes.html
+- A I2C header for the OLED Addon https://ramapcsx2.github.io/gbs-control/Wiki/OLED-Add-On-Setup-Info.html
+- A IR header for a remote control (Not implemented yet)
+
+<b>Programming of the Esp8266:</b><br>
 https://ramapcsx2.github.io/gbs-control/Wiki/Software-Setup.html

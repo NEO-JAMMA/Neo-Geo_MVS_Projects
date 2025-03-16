@@ -93,11 +93,11 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Kicad
 <b>For the video:</b>
 - This Supergun only dislpay in 240p. For HDMI TV you need an upscaler like:
     - OSSC (https://www.retrorgb.com/ossc.html)
-    - GBS8200 (https://github.com/ramapcsx2/gbs-control)
+    - GBS8200 (https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Esp8266ToGbs8200)
 - The video signal is safe thanks to the 470 Ohm on the video Sync signal.
 - For best image/sound quality use a shielded cable.
 - The 3 blue potentiometers allow a fine tunning of the RGB colors.
-- This Supergun is designed to be used with a Genesis/Megadrive 2 cable: 
+- This Supergun is designed to be used with a Genesis/Megadrive 2 AV cable: 
 <p align="center">
   <img  src="Pictures/AV_cable.png" width="500" />
 </p>
