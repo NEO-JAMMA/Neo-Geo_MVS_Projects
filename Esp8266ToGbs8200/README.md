@@ -17,6 +17,7 @@ https://github.com/ramapcsx2/gbs-control
 <b>Parts description:</b>
 - 1 * PLCC44 socket
 - 1 * Wemos D1 mini esp8266
+- 2 * Header 8 pins 2.54mm
 
 <b>Socket Preparation:</b><br>
 The socket support must be cut to really fit tight to the IC
