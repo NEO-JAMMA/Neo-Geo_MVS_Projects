@@ -12,7 +12,7 @@ THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/README.md
 
 <b>Pictures of the all the Parts:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapter/Parts
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter/Parts
 <p align="center">
   <img  src="Pictures/Parts.jpg" width="500" />
 </p>
@@ -29,16 +29,16 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapte
 - 4 * M2 Screws 25mm to 28mm long (For 3D printed case)
 
 <b>Gerber files:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapter/Gerber
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter/Gerber
 
 <b>Arduino code:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapter/ArduinoCode
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter/ArduinoCode
 
 <b>3D Printed case:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapter/3D_Case
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter/3D_Case
 
 <b>Kicad source:</b><br>
-https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/SNESControllerAdapter/Kicad
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter/Kicad
 <p align="center">
   <img  src="Pictures/Schema.png" width="500" />
 </p>
