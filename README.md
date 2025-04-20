@@ -9,6 +9,12 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun
   <img  src="Supergun/Pictures/MV1-C.jpg" width="500" />
 </p>
 
+<b>SNES to Neo-Geo Controller Adapter</b><br>
+https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/ControllerAdapter
+<p align="center">
+  <img  src="ControllerAdapter/Pictures/Assemble.jpg" width="500" />
+</p>
+
 <b>RGB Csync to YPbPr NTSC Converter</b><br>
 https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/RGBsToYPrBr
 <p align="center">
