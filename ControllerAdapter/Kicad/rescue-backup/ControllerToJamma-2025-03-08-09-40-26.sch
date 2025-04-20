@@ -1,0 +1,460 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino
+LIBS:JS202011CQN
+LIBS:ControllerToJamma-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DB9_Male J2
+U 1 1 5C486876
+P 10340 1936
+F 0 "J2" H 10340 2486 50  0000 C CNN
+F 1 "DB9_Male" H 10340 1361 50  0000 C CNN
+F 2 "Connectors_DSub:DSUB-9_Male_Horizontal_Pitch2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 10340 1936 50  0001 C CNN
+F 3 "" H 10340 1936 50  0001 C CNN
+	1    10340 1936
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB15_Female J1
+U 1 1 5C48693F
+P 10356 3658
+F 0 "J1" H 10376 4508 50  0000 C CNN
+F 1 "DB15_Female" H 10356 2783 50  0000 C CNN
+F 2 "Connectors_DSub:DSUB-15_Female_Horizontal_Pitch2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 10356 3658 50  0001 C CNN
+F 3 "" H 10356 3658 50  0001 C CNN
+	1    10356 3658
+	1    0    0    -1  
+$EndComp
+Text GLabel 10056 3358 0    60   Input ~ 0
+OUT_SELECT
+Text GLabel 10056 3458 0    60   Input ~ 0
+OUT_START
+Text GLabel 10056 3558 0    60   Input ~ 0
+OUT_B4
+Text GLabel 10056 3658 0    60   Input ~ 0
+OUT_B3
+Text GLabel 10056 3858 0    60   Input ~ 0
+OUT_B1
+Text GLabel 10056 3758 0    60   Input ~ 0
+OUT_B2
+Text GLabel 10056 3958 0    60   Input ~ 0
+OUT_RIGHT
+Text GLabel 10056 4058 0    60   Input ~ 0
+OUT_LEFT
+Text GLabel 10056 4158 0    60   Input ~ 0
+OUT_DOWN
+Text GLabel 10056 4258 0    60   Input ~ 0
+OUT_UP
+$Comp
+L GND-RESCUE-Supergun #PWR01
+U 1 1 5C487B71
+P 10056 2958
+F 0 "#PWR01" H 10056 2708 50  0001 C CNN
+F 1 "GND" V 10056 2758 50  0000 C CNN
+F 2 "" H 10056 2958 50  0001 C CNN
+F 3 "" H 10056 2958 50  0001 C CNN
+	1    10056 2958
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5C487B86
+P 10056 4358
+F 0 "#PWR02" H 10056 4208 50  0001 C CNN
+F 1 "+5V" V 10056 4558 50  0000 C CNN
+F 2 "" H 10056 4358 50  0001 C CNN
+F 3 "" H 10056 4358 50  0001 C CNN
+	1    10056 4358
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ATMEGA8A-PU U1
+U 1 1 5C4886F3
+P 7276 2906
+F 0 "U1" H 6526 4206 50  0000 L BNN
+F 1 "ATMEGA8A-PU" H 7776 1456 50  0000 L BNN
+F 2 "Housings_DIP:DIP-28_W7.62mm" H 7276 2906 50  0001 C CIN
+F 3 "" H 7276 2906 50  0001 C CNN
+	1    7276 2906
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Supergun #PWR03
+U 1 1 5C4887CB
+P 7276 4406
+F 0 "#PWR03" H 7276 4156 50  0001 C CNN
+F 1 "GND" V 7276 4206 50  0000 C CNN
+F 2 "" H 7276 4406 50  0001 C CNN
+F 3 "" H 7276 4406 50  0001 C CNN
+	1    7276 4406
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 5C4887E2
+P 7276 1506
+F 0 "#PWR04" H 7276 1356 50  0001 C CNN
+F 1 "+5V" H 7276 1646 50  0000 C CNN
+F 2 "" H 7276 1506 50  0001 C CNN
+F 3 "" H 7276 1506 50  0001 C CNN
+	1    7276 1506
+	1    0    0    -1  
+$EndComp
+Text GLabel 8276 3406 2    60   Output ~ 0
+OUT_UP
+Text GLabel 8276 3506 2    60   Output ~ 0
+OUT_DOWN
+Text GLabel 8276 3606 2    60   Output ~ 0
+OUT_LEFT
+Text GLabel 8276 3806 2    60   Output ~ 0
+OUT_B1
+Text GLabel 8276 3706 2    60   Output ~ 0
+OUT_RIGHT
+Text GLabel 8276 3906 2    60   Output ~ 0
+OUT_B2
+Text GLabel 8276 1806 2    60   Output ~ 0
+OUT_B3
+Text GLabel 8276 1906 2    60   Output ~ 0
+OUT_B4
+Text GLabel 8276 2206 2    60   Output ~ 0
+OUT_START
+Text GLabel 8276 2306 2    60   Input ~ 0
+IN_SELECT
+Text GLabel 10040 2036 0    60   Input ~ 0
+IN_SELECT
+Text GLabel 10040 2136 0    60   Input ~ 0
+IN_DOWN
+$Comp
+L +5V #PWR05
+U 1 1 5C48942E
+P 10040 1536
+F 0 "#PWR05" H 10040 1386 50  0001 C CNN
+F 1 "+5V" V 10040 1730 50  0000 C CNN
+F 2 "" H 10040 1536 50  0001 C CNN
+F 3 "" H 10040 1536 50  0001 C CNN
+	1    10040 1536
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-Supergun #PWR06
+U 1 1 5C48947D
+P 10040 1836
+F 0 "#PWR06" H 10040 1586 50  0001 C CNN
+F 1 "GND" V 10040 1636 50  0000 C CNN
+F 2 "" H 10040 1836 50  0001 C CNN
+F 3 "" H 10040 1836 50  0001 C CNN
+	1    10040 1836
+	0    1    1    0   
+$EndComp
+Text GLabel 10040 1936 0    60   Input ~ 0
+IN_LEFT
+Text GLabel 10040 1736 0    60   Input ~ 0
+IN_RIGHT
+Text GLabel 10040 2236 0    60   Input ~ 0
+IN_BB/BA
+Text GLabel 10040 1636 0    60   Input ~ 0
+IN_BC/START
+Text GLabel 10040 2336 0    60   Input ~ 0
+IN_UP
+Text GLabel 8276 2506 2    60   Output ~ 0
+IN_UP
+Text GLabel 8276 2606 2    60   Output ~ 0
+IN_DOWN
+Text GLabel 8276 2706 2    60   Output ~ 0
+IN_LEFT
+Text GLabel 8276 2806 2    60   Output ~ 0
+IN_RIGHT
+Text GLabel 8276 2906 2    60   Output ~ 0
+IN_BB/BA
+Text GLabel 8276 3006 2    60   Output ~ 0
+IN_BC/START
+Text GLabel 6376 1806 0    60   Input ~ 0
+RESET
+$Comp
+L Conn_01x01 H1
+U 1 1 5C48A5D9
+P 2825 6319
+F 0 "H1" H 2825 6419 50  0000 C CNN
+F 1 "Conn_01x01" H 2825 6219 50  0000 C CNN
+F 2 "Connectors:1pin" H 2825 6319 50  0001 C CNN
+F 3 "" H 2825 6319 50  0001 C CNN
+	1    2825 6319
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 H2
+U 1 1 5C48A668
+P 3529 6341
+F 0 "H2" H 3529 6441 50  0000 C CNN
+F 1 "Conn_01x01" H 3529 6241 50  0000 C CNN
+F 2 "Connectors:1pin" H 3529 6341 50  0001 C CNN
+F 3 "" H 3529 6341 50  0001 C CNN
+	1    3529 6341
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 HONU1
+U 1 1 5C48A711
+P 4200 6352
+F 0 "HONU1" H 4200 6452 50  0000 C CNN
+F 1 "Conn_01x01" H 4200 6252 50  0000 C CNN
+F 2 "tortule:logo" H 4200 6352 50  0001 C CNN
+F 3 "" H 4200 6352 50  0001 C CNN
+	1    4200 6352
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Nano_Socket XA1
+U 1 1 5C49F53D
+P 3342 2947
+F 0 "XA1" V 3442 2947 60  0000 C CNN
+F 1 "Arduino_Nano_Socket" V 3242 2947 60  0000 C CNN
+F 2 "Arduino:Arduino_Nano_Socket" H 5142 6697 60  0001 C CNN
+F 3 "" H 5142 6697 60  0001 C CNN
+	1    3342 2947
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5C4B2D49
+P 2042 3747
+F 0 "#PWR07" H 2042 3597 50  0001 C CNN
+F 1 "+5V" H 2042 3887 50  0000 C CNN
+F 2 "" H 2042 3747 50  0001 C CNN
+F 3 "" H 2042 3747 50  0001 C CNN
+	1    2042 3747
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-Supergun #PWR08
+U 1 1 5C4B2D69
+P 2042 3547
+F 0 "#PWR08" H 2042 3297 50  0001 C CNN
+F 1 "GND" V 2042 3347 50  0000 C CNN
+F 2 "" H 2042 3547 50  0001 C CNN
+F 3 "" H 2042 3547 50  0001 C CNN
+	1    2042 3547
+	0    1    1    0   
+$EndComp
+Text GLabel 2042 3147 0    60   Input ~ 0
+IN_UP
+Text GLabel 2042 3047 0    60   Input ~ 0
+IN_DOWN
+Text GLabel 1143 2849 0    60   Input ~ 0
+IN_RIGHT
+Text GLabel 2042 2747 0    60   Input ~ 0
+IN_BB/BA
+Text GLabel 4642 2047 2    60   Output ~ 0
+OUT_UP
+Text GLabel 4642 2147 2    60   Output ~ 0
+OUT_DOWN
+Text GLabel 4642 2247 2    60   Output ~ 0
+OUT_LEFT
+Text GLabel 4642 2447 2    60   Output ~ 0
+OUT_B1
+Text GLabel 4642 2347 2    60   Output ~ 0
+OUT_RIGHT
+Text GLabel 4642 2547 2    60   Output ~ 0
+OUT_B2
+Text GLabel 4642 2647 2    60   Output ~ 0
+OUT_B3
+Text GLabel 4642 2747 2    60   Output ~ 0
+OUT_B4
+Text GLabel 4642 2847 2    60   Output ~ 0
+OUT_SELECT
+Text GLabel 4642 3047 2    60   Output ~ 0
+OUT_START
+Text GLabel 4642 3147 2    60   Input ~ 0
+IN_SELECT
+$Comp
+L GND-RESCUE-Supergun #PWR09
+U 1 1 5C4B325C
+P 2042 3447
+F 0 "#PWR09" H 2042 3197 50  0001 C CNN
+F 1 "GND" V 2042 3247 50  0000 C CNN
+F 2 "" H 2042 3447 50  0001 C CNN
+F 3 "" H 2042 3447 50  0001 C CNN
+	1    2042 3447
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 5C4B348A
+P 4572 4368
+F 0 "C1" H 4597 4468 50  0000 L CNN
+F 1 "100nf" H 4597 4268 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4610 4218 50  0001 C CNN
+F 3 "" H 4572 4368 50  0001 C CNN
+	1    4572 4368
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Supergun #PWR010
+U 1 1 5C4B3635
+P 4572 4218
+F 0 "#PWR010" H 4572 3968 50  0001 C CNN
+F 1 "GND" V 4572 4018 50  0000 C CNN
+F 2 "" H 4572 4218 50  0001 C CNN
+F 3 "" H 4572 4218 50  0001 C CNN
+	1    4572 4218
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 5C4B3680
+P 4572 4518
+F 0 "#PWR011" H 4572 4368 50  0001 C CNN
+F 1 "+5V" H 4572 4658 50  0000 C CNN
+F 2 "" H 4572 4518 50  0001 C CNN
+F 3 "" H 4572 4518 50  0001 C CNN
+	1    4572 4518
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x07 J3
+U 1 1 5C4B7E21
+P 10264 5329
+F 0 "J3" H 10264 5729 50  0000 C CNN
+F 1 "Conn_01x07" H 10264 4929 50  0000 C CNN
+F 2 "SNES_Controller_Port:SNES_controller_port" H 10264 5329 50  0001 C CNN
+F 3 "" H 10264 5329 50  0001 C CNN
+	1    10264 5329
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-Supergun #PWR012
+U 1 1 5C4B7FF6
+P 10064 5629
+F 0 "#PWR012" H 10064 5379 50  0001 C CNN
+F 1 "GND" V 10064 5429 50  0000 C CNN
+F 2 "" H 10064 5629 50  0001 C CNN
+F 3 "" H 10064 5629 50  0001 C CNN
+	1    10064 5629
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR013
+U 1 1 5C4B80A3
+P 10064 5029
+F 0 "#PWR013" H 10064 4879 50  0001 C CNN
+F 1 "+5V" V 10064 5229 50  0000 C CNN
+F 2 "" H 10064 5029 50  0001 C CNN
+F 3 "" H 10064 5029 50  0001 C CNN
+	1    10064 5029
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10064 5129 0    60   Input ~ 0
+CLK_OUT
+Text GLabel 10064 5229 0    60   Input ~ 0
+LATCH_OUT
+Text GLabel 10064 5329 0    60   Input ~ 0
+DATA_IN
+Text GLabel 1379 2426 0    60   Input ~ 0
+CLK_OUT
+Text GLabel 1379 2535 0    60   Input ~ 0
+IN_BC/START
+Wire Wire Line
+	2042 2647 1379 2647
+Wire Wire Line
+	1379 2647 1379 2426
+Text GLabel 1143 2963 0    60   Input ~ 0
+LATCH_OUT
+Wire Wire Line
+	2042 2847 1143 2847
+Wire Wire Line
+	1143 2847 1143 2963
+Text GLabel 1347 3117 0    60   Input ~ 0
+DATA_IN
+Text GLabel 1347 3232 0    60   Input ~ 0
+IN_LEFT
+Wire Wire Line
+	2042 2947 1347 2947
+Wire Wire Line
+	1347 2947 1347 3232
+Text GLabel 8276 2006 2    60   Output ~ 0
+OUT_SELECT
+$Comp
+L SW_SPDT SW1
+U 1 1 5C8B9D8B
+P 5822 5152
+F 0 "SW1" H 5822 5322 50  0000 C CNN
+F 1 "SW_SPDT" H 5822 4952 50  0000 C CNN
+F 2 "JS202011CQN:JS202011CQN" H 5822 5152 50  0001 C CNN
+F 3 "" H 5822 5152 50  0001 C CNN
+	1    5822 5152
+	1    0    0    -1  
+$EndComp
+Text GLabel 5622 5152 0    60   Input ~ 0
+SWITCH
+$Comp
+L GND-RESCUE-Supergun #PWR014
+U 1 1 5C8BA146
+P 6022 5052
+F 0 "#PWR014" H 6022 4802 50  0001 C CNN
+F 1 "GND" V 6022 4852 50  0000 C CNN
+F 2 "" H 6022 5052 50  0001 C CNN
+F 3 "" H 6022 5052 50  0001 C CNN
+	1    6022 5052
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR015
+U 1 1 5C8BA2BB
+P 6022 5252
+F 0 "#PWR015" H 6022 5102 50  0001 C CNN
+F 1 "+5V" H 6022 5392 50  0000 C CNN
+F 2 "" H 6022 5252 50  0001 C CNN
+F 3 "" H 6022 5252 50  0001 C CNN
+	1    6022 5252
+	0    1    1    0   
+$EndComp
+Text GLabel 4642 2947 2    60   Input ~ 0
+SWITCH
+Text GLabel 8276 2106 2    60   Input ~ 0
+SWITCH
+$EndSCHEMATC

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tortule")(type "KiCad")(uri "$(KIPRJMOD)/tortule.pretty")(options "")(descr ""))
+  (lib (name "Arduino")(type "KiCad")(uri "$(KIPRJMOD)/arduino-kicad-library-master/Arduino.pretty")(options "")(descr ""))
+  (lib (name "SNES_Controller_Port")(type "KiCad")(uri "$(KIPRJMOD)/SNES_Controller_Port.pretty")(options "")(descr ""))
+  (lib (name "JS202011CQN")(type "Legacy")(uri "$(KIPRJMOD)/JS202011CQN/JS202011CQN.mod")(options "")(descr ""))
+)

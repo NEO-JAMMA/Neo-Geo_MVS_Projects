@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ControllerToJamma-rescue")(type "Legacy")(uri "${KIPRJMOD}/ControllerToJamma-rescue.lib")(options "")(descr ""))
+  (lib (name "arduino")(type "Legacy")(uri "${KIPRJMOD}/arduino-kicad-library-master/arduino.lib")(options "")(descr ""))
+  (lib (name "JS202011CQN")(type "Legacy")(uri "${KIPRJMOD}/JS202011CQN/JS202011CQN.lib")(options "")(descr ""))
+)

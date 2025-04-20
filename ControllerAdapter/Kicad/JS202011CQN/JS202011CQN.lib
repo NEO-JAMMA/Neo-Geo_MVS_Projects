@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# JS202011CQN
+#
+DEF JS202011CQN S 0 40 Y N 2 L N
+F0 "S" 0 0 50 H I L BNN
+F1 "JS202011CQN" -150 125 50 V V L BNN
+F2 "JS202011CQN" 0 0 50 H I L BNN
+F3 "JS202011CQN" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/c-k/JS202011CQN/401-2001-ND/1640097?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F5 "C&K" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "401-2001-ND" 0 0 50 H I L BNN
+F8 "JS Series DPDT On-On PC Pin Through Hole Subminiature Slide Switch" 0 0 50 H I L BNN
+DRAW
+P 2 1 0 10 -150 75 -150 0 N
+P 2 1 0 6 -150 0 -75 0 N
+P 2 1 0 10 -150 0 -150 -75 N
+P 2 1 0 6 -50 0 -30 0 N
+P 2 1 0 6 10 0 25 0 N
+P 2 1 0 10 100 -125 100 -75 N
+P 2 1 0 10 100 -75 25 125 N
+P 2 1 0 10 150 100 200 100 N
+P 2 1 0 10 200 100 200 125 N
+P 2 1 0 10 0 100 50 100 N
+P 2 1 0 10 0 100 0 125 N
+P 2 1 0 6 -30 0 -10 -30 N
+P 2 1 0 6 -10 -30 10 0 N
+P 2 1 0 6 50 0 100 0 N
+P 2 1 0 6 125 0 150 0 N
+P 2 1 0 6 175 0 200 0 N
+X O 4 0 200 100 D 40 40 1 0 P 
+X P 5 100 -200 100 U 40 40 1 0 P 
+X S 6 200 200 100 D 40 40 1 0 P 
+P 2 2 0 10 0 -125 0 -75 N
+P 2 2 0 10 0 -75 -75 125 N
+P 2 2 0 10 50 100 100 100 N
+P 2 2 0 10 100 100 100 125 N
+P 2 2 0 10 -100 100 -50 100 N
+P 2 2 0 10 -100 100 -100 125 N
+P 2 2 0 6 -25 0 -50 0 N
+P 2 2 0 6 -75 0 -100 0 N
+P 2 2 0 6 -125 0 -150 0 N
+X O 1 -100 200 100 D 40 40 2 0 P 
+X P 2 0 -200 100 U 40 40 2 0 P 
+X S 3 100 200 100 D 40 40 2 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
