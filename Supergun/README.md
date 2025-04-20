@@ -35,7 +35,7 @@ https://github.com/NEO-JAMMA/Neo-Geo_MVS_Projects/tree/main/Supergun/Parts
 - 1 * Molex 4 pins (PC connector) (Optional With Direct Stereo Audio/5 volts mod)
 - 1 * Power Jack Socket 2.1mm x 5.5mm Barrel-Type PCB Mount
 - 2 * Header 3 pins 2.54mm
-- 2 * DR25 25 Pins Male right angle (D-SUB 15)
+- 2 * DR15 15 Pins Male right angle (D-SUB 15)
 - 1 * 3F07 Audio Jack Connector PCB 5 Pins
 - 2 * Led 3mm (Orange & Red)
 - 7 * Resistors
